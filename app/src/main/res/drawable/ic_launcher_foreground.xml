@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Protective Guard Shield (Elevates visual branding) -->
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M54,20 L84,30 V58 C84,76 54,88 54,88 C54,88 24,76 24,58 V30 Z" />
+
+    <!-- Solid Main Shield Frame -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 L80,32.6 V58 C80,73.5 54,83.5 54,83.5 C54,83.5 28,73.5 28,58 V32.6 Z" />
+
+    <!-- SIM Card Icon Silhouette inside Shield -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M42,42 H60 L66,48 V66 C66,67.1 65.1,68 64,68 H42 C40.9,68 40,67.1 40,66 V44 C40,42.9 40.9,42 42,42 Z" />
+
+    <!-- SIM Copper Contacts micro lines -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M45,49 H53 V53 H45 Z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M55,49 H61 V53 H55 Z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M45,56 H53 V60 H45 Z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M55,56 H61 V60 H55 Z" />
+        
+</vector>

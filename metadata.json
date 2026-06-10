@@ -1,0 +1,6 @@
+{
+  "name": "SIM Keeper",
+  "description": "Smart SIM Card & Keep-alive Reminders Manager for managing multi-carrier active rules and local consumption history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

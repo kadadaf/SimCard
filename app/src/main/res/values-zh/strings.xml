@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM管家</string>
+    <string name="nav_dashboard">我的卡片</string>
+    <string name="nav_settings">备份与安全</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">SIM管家设置</string>
+    <string name="settings_protection_engine">防封/保活自动保护引擎</string>
+    <string name="settings_duration_explanation">为了防止您的国际预付费SIM卡被回收，移动运营商规定了周期内的活跃记录（如 Giffgaff: 180天，CTExcel: 180天）。SIM管家保护您免受无声停卡的困扰。</string>
+    <string name="settings_engine_status">定时检测器引擎状态</string>
+    <string name="settings_background_checks">后台定时自动轮询</string>
+    <string name="settings_auto_inspect">已自动检索本地卡片到期日</string>
+    <string name="settings_active">活跃中</string>
+    <string name="settings_trigger_audit_btn">立即发起全卡强行检测</string>
+    <string name="settings_toast_engine_triggered">保活自动监视引擎检测执行成功！</string>
+    <string name="settings_rules_guide">卡片官方防过期保活规则指南</string>
+    <string name="settings_carrier_policies">主要预付费运营商(Giffgaff/CTExcel)的回收条款</string>
+    <string name="settings_erase_backup_header">数据归档、归纳与设备还原</string>
+    <string name="settings_backup_title">无服务器·本地安全Room数据导出</string>
+    <string name="settings_backup_intro">因为SIM管家使用完全沙盒化的本地SQLite/Room物理数据库，在升级设备、清除数据或刷机前，导出数据是防止卡片记录丢失的唯一途径。</string>
+    <string name="settings_copy_backup_btn">复制数据备份</string>
+    <string name="settings_paste_restore_btn">粘贴历史备份还原</string>
+    <string name="settings_toast_copied">本地记录对应的JSON备份包已成功复制到剪贴板！</string>
+    <string name="settings_toast_no_data">未找到任何有效的SIM卡记录，无法导出</string>
+    <string name="settings_restore_title">一键恢复 SIM管家 记录</string>
+    <string name="settings_restore_msg">请在下方文本框中粘贴您之前导出的完整 JSON 数据包，以一次性恢复您的所有卡片、到期提醒规则及保活日志。</string>
+    <string name="settings_restore_warning">⚠️ 警告：导入该备份将永久性覆盖并完全抹去当前的本地SIM卡及规则！</string>
+    <string name="settings_paste_placeholder">在此粘贴JSON数据...</string>
+    <string name="settings_confirm_restore_btn">确认覆盖导入</string>
+    <string name="settings_cancel_btn">取消</string>
+    <string name="settings_toast_empty_input">粘贴的数据为空，无法导入</string>
+    <string name="settings_toast_restore_success">卡片和保活数据已成功恢复！</string>
+    <string name="settings_toast_restore_failed">数据格式不正确，还原失败: </string>
+    
+    <!-- Add SIM Screen -->
+    <string name="add_sim_title">新建 SIM卡 档案</string>
+    <string name="add_sim_phone">电话号码</string>
+    <string name="add_sim_phone_placeholder">例如：+1 (650) 123-4567, +44 7723 456789</string>
+    <string name="add_sim_operator">所属通信运营商</string>
+    <string name="add_sim_operator_placeholder">选择或手动键入运营商名称</string>
+    <string name="add_sim_card_type">卡片实体类型</string>
+    <string name="add_sim_activation_date">卡片登记/激活时间</string>
+    <string name="add_sim_plan">预订套餐 (选填)</string>
+    <string name="add_sim_plan_placeholder">例如：每月10英镑预订套餐，无任何套餐</string>
+    <string name="add_sim_balance">当前话费余额</string>
+    <string name="add_sim_currency">通用货币单位</string>
+    <string name="add_sim_notes">私有物理备注 / PIN / PUK 卡套备忘</string>
+    <string name="add_sim_notes_placeholder">写下卡片存放位置：如“抽屉第二个卡包”或记录其注册邮箱、PIN码等...</string>
+    <string name="add_sim_save_btn">保存卡片并自动套用保活机制</string>
+    <string name="add_sim_toast_success">SIM卡添加成功！已自动为其套用运营商的标准防过期保活规则。</string>
+    <string name="add_sim_toast_failed">保存SIM卡记录失败: </string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_active_cards">我的保护卡片</string>
+    <string name="dashboard_at_risk">有回收危险</string>
+    <string name="dashboard_search">搜索号码、运营商或卡片备注...</string>
+    <string name="dashboard_filter_all">所有运营商</string>
+    <string name="dashboard_sort_by_risk">按过期紧急度排序</string>
+    <string name="dashboard_sort_by_balance">按余额多少排序</string>
+    <string name="dashboard_sort_by_number">按手机号码排序</string>
+    <string name="dashboard_view_all">查看全部</string>
+    <string name="dashboard_empty_title">未过滤到任何匹配的SIM卡</string>
+    <string name="dashboard_empty_desc">请尝试修改关键字、重置或清除运营商过滤器。</string>
+    <string name="dashboard_days_remaining">%1$s天后到期</string>
+    <string name="dashboard_expired">卡片已过期</string>
+    <string name="dashboard_standby">暂无需处理</string>
+    <string name="dashboard_health_active">安全</string>
+    <string name="dashboard_health_alert">警告</string>
+    <string name="dashboard_health_urgent">紧急</string>
+    <string name="dashboard_health_standby">等待中</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">SIM 卡详细档案</string>
+    <string name="detail_delete_title">注销/物理删除卡片记录</string>
+    <string name="detail_delete_confirm_msg">您确定要从SIM管家中彻底删除此卡吗？这将同时清理与之相关的所有定时保活日程和历史消费日志，该操作不可撤销。</string>
+    <string name="detail_delete_confirm_btn">彻底物理删除</string>
+    <string name="detail_rules_tab">保活策略 (%1$d)</string>
+    <string name="detail_history_tab">保活历史日志 (%1$d)</string>
+    <string name="detail_no_rules">该SIM卡还没有绑定任何防停卡、防过期的定时保活策略。</string>
+    <string name="detail_add_rule_btn">添加自定义保活查验规则</string>
+    <string name="detail_rule_repeats">保活检测循环周期</string>
+    <string name="detail_days">天</string>
+    <string name="detail_action">规定必做动作</string>
+    <string name="detail_next_due">最晚操作限期</string>
+    <string name="detail_last_reset">上次操作过时间</string>
+    <string name="detail_rule_notes">条目保活备注</string>
+    <string name="detail_perform_action_btn">我完成了此次保活动作(重置周期)</string>
+    <string name="detail_delete_rule_title">删除此条到期规则</string>
+    <string name="detail_delete_rule_msg">确定要从本卡中移除此保活监视日程吗？</string>
+    <string name="detail_new_rule_title">自定义设置本卡专属保活动作</string>
+    <string name="detail_rule_name">到期策略名称</string>
+    <string name="detail_rule_name_placeholder">例如：发送国际短信保活</string>
+    <string name="detail_period">保活活跃期长度 (天)</string>
+    <string name="detail_spend">单次保活话费扣除金额 (可选)</string>
+    <string name="detail_add_btn">将此保活时效绑定至卡片</string>
+    <string name="detail_no_history">该卡暂时没有发生过任何因进行保活所诱发的变动消费记录。</string>
+    <string name="detail_balance">话费余额: %1$s %2$.2f</string>
+    <string name="detail_activation">首次激活日期: %1$s</string>
+    <string name="detail_plan">当前套餐: %1$s</string>
+    <string name="detail_no_plan">无说明</string>
+
+    <!-- Global App Settings Localization -->
+    <string name="settings_language">显示语言 / Language</string>
+    <string name="settings_language_desc">切换应用中英文或跟随系统</string>
+</resources>

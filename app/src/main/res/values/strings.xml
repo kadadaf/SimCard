@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Keeper</string>
+    <string name="nav_dashboard">Cards</string>
+    <string name="nav_settings">Backup &amp; Safe</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">SIM Keeper Settings</string>
+    <string name="settings_protection_engine">Keeping-Alive Protection Engine</string>
+    <string name="settings_duration_explanation">To preserve international prepay SIM cards, mobile operators dictate active use periodic cycles (e.g., Giffgaff: 180 days, CTExcel: 180 days). SIM Keeper protects you from silent card blockades.</string>
+    <string name="settings_engine_status">Engine Status &amp; Alarms</string>
+    <string name="settings_background_checks">Background Alarm Checks</string>
+    <string name="settings_auto_inspect">Auto-inspects SIM rule counters</string>
+    <string name="settings_active">ACTIVE</string>
+    <string name="settings_trigger_audit_btn">Trigger instant rules audit</string>
+    <string name="settings_toast_engine_triggered">Active Keep-Alive engine verified and checking triggered!</string>
+    <string name="settings_rules_guide">Keeping-Alive Rules Guide</string>
+    <string name="settings_carrier_policies">Standard rules of Giffgaff and CTExcel</string>
+    <string name="settings_erase_backup_header">Erase &amp; Backup Restoration</string>
+    <string name="settings_backup_title">Secure Local Storage Backup</string>
+    <string name="settings_backup_intro">Because SIM Keeper utilizes sandboxed local Room databases, exporting backups is vital when upgrading devices or flashing firmware.</string>
+    <string name="settings_copy_backup_btn">Copy Backup</string>
+    <string name="settings_paste_restore_btn">Paste Restore</string>
+    <string name="settings_toast_copied">Database JSON copied to clipboard successfully!</string>
+    <string name="settings_toast_no_data">No active database found to export</string>
+    <string name="settings_restore_title">Restore SIM Keeper Backup</string>
+    <string name="settings_restore_msg">Paste your exported SIM Keeper backup JSON code here to restore SIMs, rules, and history databases.</string>
+    <string name="settings_restore_warning">⚠️ Warning: Restoring will overwrite and clear your current local cards list!</string>
+    <string name="settings_paste_placeholder">Paste JSON code...</string>
+    <string name="settings_confirm_restore_btn">Confirm Restore</string>
+    <string name="settings_cancel_btn">Cancel</string>
+    <string name="settings_toast_empty_input">Input code is empty</string>
+    <string name="settings_toast_restore_success">Backup data restored successfully!</string>
+    <string name="settings_toast_restore_failed">Failed to restore backup: </string>
+    
+    <!-- Add SIM Screen -->
+    <string name="add_sim_title">Add SIM Card</string>
+    <string name="add_sim_phone">Phone Number</string>
+    <string name="add_sim_phone_placeholder">e.g., +44 7723 456789</string>
+    <string name="add_sim_operator">Operator/Carrier</string>
+    <string name="add_sim_operator_placeholder">Select or type carrier name</string>
+    <string name="add_sim_card_type">Card Type</string>
+    <string name="add_sim_activation_date">Activation / Purchase Date</string>
+    <string name="add_sim_plan">Plan Details (Optional)</string>
+    <string name="add_sim_plan_placeholder">e.g., 10 GBP Monthly Pay-as-you-go</string>
+    <string name="add_sim_balance">Current Balance</string>
+    <string name="add_sim_currency">Currency Unit</string>
+    <string name="add_sim_notes">Private Notes / Reminders</string>
+    <string name="add_sim_notes_placeholder">Where is the physical SIM card stored? PIN/PUK codes...</string>
+    <string name="add_sim_save_btn">Save SIM &amp; Schedule Rules</string>
+    <string name="add_sim_toast_success">SIM Card added successfully with keeping-alive rules!</string>
+    <string name="add_sim_toast_failed">Failed to add SIM Card: </string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_active_cards">Active Cards</string>
+    <string name="dashboard_at_risk">Cards at Risk</string>
+    <string name="dashboard_search">Search numbers or notes...</string>
+    <string name="dashboard_filter_all">All Operators</string>
+    <string name="dashboard_sort_by_risk">Sort by Risk</string>
+    <string name="dashboard_sort_by_balance">Sort by Balance</string>
+    <string name="dashboard_sort_by_number">Sort by Number</string>
+    <string name="dashboard_view_all">View All</string>
+    <string name="dashboard_empty_title">No Matching SIM Cards</string>
+    <string name="dashboard_empty_desc">Try adjusting your query or resetting operator filters.</string>
+    <string name="dashboard_days_remaining">%1$sd remaining</string>
+    <string name="dashboard_expired">Expired</string>
+    <string name="dashboard_standby">Standby</string>
+    <string name="dashboard_health_active">ACTIVE</string>
+    <string name="dashboard_health_alert">ALERT</string>
+    <string name="dashboard_health_urgent">URGENT</string>
+    <string name="dashboard_health_standby">STANDBY</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">SIM Details</string>
+    <string name="detail_delete_title">Delete SIM Card</string>
+    <string name="detail_delete_confirm_msg">Are you absolutely sure you want to delete this SIM card and all associated keep alive rules &amp; records? This action cannot be undone.</string>
+    <string name="detail_delete_confirm_btn">Delete Permanently</string>
+    <string name="detail_rules_tab">Rules (%1$d)</string>
+    <string name="detail_history_tab">Logs (%1$d)</string>
+    <string name="detail_no_rules">No keep-alive rules configured for this SIM card.</string>
+    <string name="detail_add_rule_btn">Add Custom Keeping-Alive Rule</string>
+    <string name="detail_rule_repeats">Repeats Every</string>
+    <string name="detail_days">days</string>
+    <string name="detail_action">Required Action</string>
+    <string name="detail_next_due">Next Active Due</string>
+    <string name="detail_last_reset">Last Reset</string>
+    <string name="detail_rule_notes">Rule Details / Notes</string>
+    <string name="detail_perform_action_btn">Record Keep-Alive Action</string>
+    <string name="detail_delete_rule_title">Delete Rule</string>
+    <string name="detail_delete_rule_msg">Delete this rules checking block?</string>
+    <string name="detail_new_rule_title">Add Custom Protecting Rule</string>
+    <string name="detail_rule_name">Rule Name</string>
+    <string name="detail_rule_name_placeholder">e.g., Send International Text</string>
+    <string name="detail_period">Keeping-Alive Period (Days)</string>
+    <string name="detail_spend">Cost / Spend Amount (Optional)</string>
+    <string name="detail_add_btn">Add Guarding Rule</string>
+    <string name="detail_no_history">No historical keeping-alive operations logged yet.</string>
+    <string name="detail_balance">Balance: %1$s %2$.2f</string>
+    <string name="detail_activation">Activated: %1$s</string>
+    <string name="detail_plan">Plan: %1$s</string>
+    <string name="detail_no_plan">No plan details</string>
+
+    <!-- Global App Settings Localization -->
+    <string name="settings_language">Language / 语言</string>
+    <string name="settings_language_desc">Select your custom interface translation mode</string>
+</resources>
